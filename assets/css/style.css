@@ -29,7 +29,7 @@
     float: right;
     margin-top: 20px;
     font-family: Arial, Helvetica, sans-serif;
-    color: #cccccc;
+    color: #dddddd;
 }
 
 a:link{
@@ -39,32 +39,35 @@ a:hover{
     text-decoration: underline;
 }
 .head-about{
-   color: #cccccc;
+   color: #777777;
+   padding: 0px 7px;
 }
 .head-portfolio{
-    color: #cccccc;
+    color: #777777;
+    padding: 0px 7px 0px 7px;
 }
 .head-contact{
-    color: #cccccc;
+    color: #777777;
+    padding: 0px 0px 0px 7px;
 }
 /* the above are for the About Me, Portfolio, and Contact links on the right side of the webpage */
 
 .entire-content {
-    background-image: url(assets/images/grey_jean.png); /* cannot seem to figure out how to direct the relative path to use the image i DL for background */
+    background-image: url("../images/gray_jean/gray_jean.png");
+    
     clear: both;
     margin-right: auto;
     margin-left: auto;
     border-top-style: solid;
     border-top-width: 2px;
-    border-top-color: #cccccc;
+    border-top-color: #dddddd;
     border-bottom-style: solid;
     border-bottom-color: #4aaaa5;
     border-bottom-width: 7px;
     }
 
 .main-section {
-    background-image: url(Basic-Portfolio/grey_jean.png);
-    background: #ffffff;
+    background-color: #ffffff;
     margin-right: auto;
     margin-left: auto;
     margin-top: 30px;
@@ -81,7 +84,7 @@ a:hover{
     border-bottom-style: solid;
     border-bottom-color: #d5d5d5;
     border-bottom-width: 3px;
-    
+    padding: 0px 0px 25px 0px   
 }
 
 .about-image {
@@ -94,7 +97,7 @@ a:hover{
 
 
 .p1{font-family: Arial, Helvetica, sans-serif;
-    color: #7a7777;
+    color: #777777;
     line-height: 1.5;
     padding-left: 30px;
     padding-right: 20px;
@@ -102,7 +105,7 @@ a:hover{
 }
     
 .p2 {font-family: Arial, Helvetica, sans-serif;
-    color: #7a7777;
+    color: #777777;
     line-height: 1.5;
     padding-left: 5px;
 }
@@ -125,6 +128,7 @@ a:hover{
     font-family: Arial, Helvetica, sans-serif;
     font-size: 10px;
     position: absolute;
+    padding: 1rem;
 }
 
 /* cant figure out how to set the copyright to the bottom of the footer.. */
