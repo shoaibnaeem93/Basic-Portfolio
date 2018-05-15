@@ -1,8 +1,10 @@
-*{
+* {
+    margin: 0;
+    padding: 0;
+  }
+/* padding and margin set to 0 so that the elements in webpage can reach edges */
 
-}
 .header {
-
     height: 60px;
     margin-right: auto;
     margin-left: auto;
@@ -12,14 +14,16 @@
 
 .header-box{
     background-color: #4aaaa5;
-    height: 60px;
-    width: 300px;
+    height: 30px;
+    width: 250px;
     text-align: center;
+    padding: 15px;
     display: inline-block;
     font-size: 13px;
     font-family: Georgia, 'Times New Roman', Times, serif;
     color: white;
 }
+/* .header and .header-box are used for the my name and also for the teal box around my name */
 
 .header-right {
     float: right;
@@ -28,6 +32,12 @@
     color: #cccccc;
 }
 
+a:link{
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: underline;
+}
 .head-about{
    color: #cccccc;
 }
@@ -37,11 +47,11 @@
 .head-contact{
     color: #cccccc;
 }
+/* the above are for the About Me, Portfolio, and Contact links on the right side of the webpage */
 
 .entire-content {
-    background-image: url();
+    background-image: url(assets/images/grey_jean.png); /* cannot seem to figure out how to direct the relative path to use the image i DL for background */
     clear: both;
-    background-color;
     margin-right: auto;
     margin-left: auto;
     border-top-style: solid;
@@ -53,7 +63,7 @@
     }
 
 .main-section {
-    background-image: url(Basic-Portfolio/assets/images/grey_jean.png);
+    background-image: url(Basic-Portfolio/grey_jean.png);
     background: #ffffff;
     margin-right: auto;
     margin-left: auto;
@@ -83,29 +93,38 @@
 }
 
 
-.p2 {font-family: Arial, Helvetica, sans-serif;
-    color: #7a7777;
-    line-height: 1.5;
-    padding-left: 5px;
-
-}
-
 .p1{font-family: Arial, Helvetica, sans-serif;
     color: #7a7777;
     line-height: 1.5;
     padding-left: 30px;
     padding-right: 20px;
-    padding-top: 10px
+    padding-top: 10px;
 }
+    
+.p2 {font-family: Arial, Helvetica, sans-serif;
+    color: #7a7777;
+    line-height: 1.5;
+    padding-left: 5px;
+}
+/* .p1 and .p2 are my two paragraphs in the html document..not sure if I should combine both and style it here in CSS as one or not */
 
-.copyright{
-    color: #e7e6e6;
-    text-align: center;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 10px;
+
+
+.footer{
     background: grey;
     margin-right: auto;
     margin-left: auto;
     min-height: 50px;
     position: relative;
 }
+
+.copyright{
+    color: #e7e6e6;
+    text-align: center;
+    width: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 10px;
+    position: absolute;
+}
+
+/* cant figure out how to set the copyright to the bottom of the footer.. */
