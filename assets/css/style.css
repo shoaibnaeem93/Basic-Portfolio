@@ -19,7 +19,8 @@
     text-align: center;
     padding: 15px;
     display: inline-block;
-    font-size: 13px;
+    font-size: 30px;
+    font-weight: bold;
     font-family: Georgia, 'Times New Roman', Times, serif;
     color: white;
 }
@@ -54,7 +55,6 @@ a:hover{
 
 .entire-content {
     background-image: url("../images/gray_jean/gray_jean.png");
-    
     clear: both;
     margin-right: auto;
     margin-left: auto;
@@ -78,7 +78,8 @@ a:hover{
 
 .about-header {
     color: #4aaaa5;
-    font-size: 18px;
+    font-size: 26px;
+    font-weight: bold;
     font-family: Georgia, 'Times New Roman', Times, serif;
     padding-left: 5px;
     border-bottom-style: solid;
