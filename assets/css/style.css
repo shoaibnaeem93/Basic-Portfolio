@@ -63,7 +63,7 @@ a:hover{
     border-top-color: #dddddd;
     border-bottom-style: solid;
     border-bottom-color: #4aaaa5;
-    border-bottom-width: 7px;
+    border-bottom-width: 8px;
     }
 
 .main-section {
@@ -73,7 +73,8 @@ a:hover{
     margin-top: 30px;
     margin-bottom: 140px;
     max-width: 920px;
-    padding: 20px 20px;
+    padding: 20px 20px 20px 20px;
+    height: fit-content;
 }
 
 .about-header {
@@ -88,8 +89,6 @@ a:hover{
     padding: 0px 0px 25px 0px;   
 }
 
-
-
 .about-image {
     float: left;
     display: inline-block;
@@ -97,7 +96,6 @@ a:hover{
     padding-right:10px;
     padding-top: 15px;
 }
-
 
 .p1{font-family: Arial, Helvetica, sans-serif;
     color: #777777;
@@ -120,6 +118,8 @@ a:hover{
     margin-left: auto;
     min-height: 70px;
     position: relative;
+    bottom: 0px;
+   
 }
 
 .copyright{
@@ -128,8 +128,9 @@ a:hover{
     width: 100%;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 11px;
-    position: absolute;bottom;
+    position: absolute;
     padding: 20px;
+    margin: bottom;
 }
 
 /*everything from here under is the css for contact.html*/
@@ -191,57 +192,126 @@ input[type=form-text] {
         padding: 0px 0px 25px 0px;
 }
 
-#picture-1+2{
-    width: 919px;
-    height: 150px;
-    bottom: 0;
-    margin-top: 30px;
-}
-
-#picture-3+4{
-    width: 919px;
-    height: 150px;
-    bottom: 0;
-    margin-top: 30px;
-}
-
 .hangman-text{
     color: white;
     background-color: #4aaaa5;
-    width: 20%;
+    width: 200px;
     text-align: center;
-    padding: 20px;
+    padding: 10px 20px 10px 20px;
+    position: absolute;
+    top: 308px;
 }
 
 .rpg-text{
     color: white;
     background-color: #4aaaa5;
-    width: 20%;
+    width: 200px;
     text-align: center;
-    padding: 20px;
-
-}
+    padding: 10px 20px 10px 20px;
+    position: absolute;
+    top: 308px;
+}  
 
 .trivia-text{
     color: white;
     background-color: #4aaaa5;
-    width: 20%;
+    width: 200px;
     text-align: center;
-    padding: 20px;
+    padding: 10px 20px 10px 20px;
+    position: relative;
+    top: 112px;
 }
 
-.widget-text{  
+.rutgers-text{
     color: white;
     background-color: #4aaaa5;
-    width: 20%;
+    width: 200px;
     text-align: center;
-    padding: 20px;
+    padding: 10px 20px 10px 20px;
+    position: relative;
+    top: 112px;
 }
 
 .rps-text{
     color: white;
     background-color: #4aaaa5;
-    width: 20%;
+    width: 200px;
     text-align: center;
-    padding: 20px;
+    padding: 10px 20px 10px 20px;
+    position: relative;
+    top: 112px;
+}
+
+.hangman-image{
+    background-image: url("../images/hangman.jpg");
+    width: 240px;
+    height: 200px;
+    bottom: 0;
+    margin-top: 30px;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: fixed;  
+}
+
+.rpg-image{
+    background-image: url("../images/RPG.jpg");
+    width: 240px;
+    height: 200px;
+    bottom: 0;
+    margin-top: 30px;
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+.trivia-image{
+    background-image: url("../images/trivia.jpg");
+    width: 240px;
+    height: 200px;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: relative;   
+}
+
+.rutgers-image{
+    background-image: url("../images/widget.jpg");
+    width: 240px;
+    height: 200px; 
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: relative;
+}
+
+.rps-image{
+    background-image: url("../images/rps.png");
+    width: 240px;
+    height: 200px;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: relative;
+}
+
+#hangman{
+    float: left;
+    width: 30%;
+}
+
+#rpg{
+    float: left;
+    width: 30%
+}
+
+#trivia{
+    clear: both;
+    float: left;
+    width: 30%;   
+}
+
+#widget{
+    float: left;
+    width: 30%; 
+}
+
+#rps{
+    clear: both;
+    float: none
 }
