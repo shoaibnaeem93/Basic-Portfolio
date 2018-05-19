@@ -4,6 +4,8 @@
   }
 /* padding and margin set to 0 so that the elements in webpage can reach edges */
 
+/* Everything under is for the general layout of all the pages*/
+
 .header {
     height: 60px;
     margin-right: auto;
@@ -24,7 +26,6 @@
     font-family: Georgia, 'Times New Roman', Times, serif;
     color: white;
 }
-/* .header and .header-box are used for the my name and also for the teal box around my name */
 
 .header-right {
     float: right;
@@ -51,7 +52,6 @@ a:hover{
     color: #777777;
     padding: 0px 0px 0px 7px;
 }
-/* the above are for the About Me, Portfolio, and Contact links on the right side of the webpage */
 
 .entire-content {
     background-image: url("../images/gray_jean/gray_jean.png");
@@ -76,6 +76,29 @@ a:hover{
     padding: 20px 20px 20px 20px;
     height: fit-content;
 }
+
+.footer{
+    background: grey;
+    margin-right: auto;
+    margin-left: auto;
+    min-height: 70px;
+    position: relative;
+    bottom: 0px;
+   
+}
+
+.copyright{
+    color: #e7e6e6;
+    text-align: center;
+    width: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 11px;
+    position: absolute;
+    padding: 20px;
+    margin: bottom;
+}
+
+/* Everything under is css for index.html */
 
 .about-header {
     color: #4aaaa5;
@@ -112,26 +135,7 @@ a:hover{
 }
 /* .p1 and .p2 are my two paragraphs in the html document..not sure if I should combine both and style it here in CSS as one or not */
 
-.footer{
-    background: grey;
-    margin-right: auto;
-    margin-left: auto;
-    min-height: 70px;
-    position: relative;
-    bottom: 0px;
-   
-}
-
-.copyright{
-    color: #e7e6e6;
-    text-align: center;
-    width: 100%;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 11px;
-    position: absolute;
-    padding: 20px;
-    margin: bottom;
-}
+/* end css specific for index.html */
 
 /*everything from here under is the css for contact.html*/
 
@@ -315,3 +319,7 @@ input[type=form-text] {
     clear: both;
     float: none;
 }
+
+/* endd css for portfolio.css*/
+
+/* DONE */
